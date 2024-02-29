@@ -21,11 +21,11 @@ def parse_label_map(label_map_path):
 
 
 # Load COCO labels
-label_map_path = "mscoco_label_map.pbtxt"
+label_map_path = "labels/mscoco_complete_label.pbtxt"
 coco_labels = parse_label_map(label_map_path)
 
 # Load the TFLite model and allocate tensors
-interpreter = tflite.Interpreter(model_path="ssd_mobilenet.tflite")
+interpreter = tflite.Interpreter(model_path="tflite-models/ssd_mobilenet.tflite")
 interpreter.allocate_tensors()
 
 # Get input and output detailsq
