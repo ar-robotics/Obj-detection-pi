@@ -2,7 +2,6 @@ from flask import Flask, Response
 import cv2
 import numpy as np
 import tflite_runtime.interpreter as tflite
-from PIL import Image
 
 app = Flask(__name__)
 
@@ -10,11 +9,14 @@ app = Flask(__name__)
 # Function to load labels from the labels file
 def load_labels(label_path):
     """Loads the labels file. Supports files with or without index numbers.
+
+    If the file contains index numbers, then the index number is removed from the label.
+
     Args:
         label_path: path to the labels file.
+
     Returns:
         A list with the labels.
-    If the file contains index numbers, then the index number is removed from the label.
     """
     with open(label_path, "r") as file:
         labels = [line.strip() for line in file.readlines()]
@@ -22,8 +24,8 @@ def load_labels(label_path):
 
 
 # Load model and labels
-model_path = "/home/pi/Obj-detection-pi/custom-transfer-learning/tflite_models/people_detection_2.tflite"
-label_path = "/home/pi/Obj-detection-pi/custom-transfer-learning/labels/labels.txt"
+model_path = "/home/pi/Obj-detection-pi/custom_transfer_learning/tflite_models/people_detection_2.tflite"
+label_path = "/home/pi/Obj-detection-pi/custom_transfer_learning/labels/labels.txt"
 interpreter = tflite.Interpreter(model_path=model_path)
 interpreter.allocate_tensors()
 input_details = interpreter.get_input_details()
@@ -43,6 +45,7 @@ cap = getCaps()
 # Function to draw bounding boxes on the frame
 def draw_boxes(frame, num_detections, boxes, classes, scores, labels, threshold=0.4):
     """Draw bounding boxes on the frame.
+
     Args:
         frame: the frame to draw on.
         num_detections: the number of detections.
@@ -51,7 +54,6 @@ def draw_boxes(frame, num_detections, boxes, classes, scores, labels, threshold=
         scores: the confidence scores of the detected object.
         labels: the labels of the detected object.
         threshold: the confidence threshold to use.
-    R
     """
     height, width, _ = frame.shape
     for i in range(num_detections):
@@ -88,6 +90,12 @@ def draw_boxes(frame, num_detections, boxes, classes, scores, labels, threshold=
 
 
 def getFrame():
+    """Get a frame from the camera.
+
+    Returns:
+        A tuple with a boolean indicating if the frame was captured successfully and
+        the frame.
+    """
     # cap = getCaps()
     ret, frame = cap.read()
     return ret, frame
@@ -95,7 +103,14 @@ def getFrame():
 
 # Function to process a single frame for detection and return the frame
 def process_frame_for_detection(frame=None):
+    """Process a single frame for object detection and return the frame.
 
+    Args:
+        frame: the frame to process.
+
+    Returns:
+        The frame with bounding boxes drawn around the detected objects.
+    """
     ret, frame = frame  # cap.read()  # Capture frame
     # cap.release()
 
@@ -131,7 +146,11 @@ def process_frame_for_detection(frame=None):
 
 @app.route("/snapshot")
 def snapshot():
+    """Get a snapshot from the camera when a GET request is received.
 
+    Returns:
+        A response with the snapshot.
+    """
     frame = process_frame_for_detection(getFrame())
     if frame is None:
         return "Failed to capture frame", 400
