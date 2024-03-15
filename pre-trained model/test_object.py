@@ -1,6 +1,11 @@
 import cv2
-import numpy as np
 from tflite_runtime.interpreter import Interpreter
+from pymongo import MongoClient
+
+
+# Connect to MongoDB
+client = MongoClient("mongodb://localhost:27017/")
+db = client["mongodbVSCodePlaygroundDB"]
 
 
 def load_labels(path):
@@ -11,7 +16,7 @@ def load_labels(path):
 def set_input_tensor(interpreter, image):
     tensor_index = interpreter.get_input_details()[0]["index"]
     input_tensor = interpreter.tensor(tensor_index)()[0]
-    input_tensor[:, :] = image
+    # input_tensor[:, :] = image
 
 
 def get_output(interpreter, score_threshold):
@@ -61,12 +66,12 @@ def draw_results(frame, results, labels):
 
 
 # Load TFLite model and allocate tensors.
-interpreter = Interpreter(model_path="model.tflite")
+interpreter = Interpreter(model_path="tflite-models/ssd_mobilenet.tflite")
 interpreter.allocate_tensors()
 output_details = interpreter.get_output_details()
 print(output_details)
 # Load labels.
-labels = load_labels("labels.txt")
+labels = load_labels("labels/labels-ssd.txt")
 
 # Initialize video stream.
 cap = cv2.VideoCapture(0)
