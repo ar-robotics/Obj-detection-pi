@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --rm -it --user ai --network host -v $PWD/ai:/ai ros2_humble_ai_workspace 

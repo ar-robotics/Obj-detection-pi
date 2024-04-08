@@ -2,6 +2,7 @@ import numpy as np
 import cv2
 import tflite_runtime.interpreter as tflite
 from PIL import Image
+
 def test_with_an_image(modelpath,imagepath,labelpath):
     
     # Load TFLite model and allocate tensors.
