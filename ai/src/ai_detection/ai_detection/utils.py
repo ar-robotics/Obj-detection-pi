@@ -5,8 +5,8 @@ path = "/ai/src/ai_detection/ai_detection/{}"
 
 
 class Camera(enum.Enum):
-    DRIVE = 0
-    ARM = 1
+    DRIVE = "/dev/drive_camera"
+    ARM = "/dev/arm_camera"
 
 
 def get_path(subpath: str) -> str:

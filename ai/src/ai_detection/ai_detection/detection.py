@@ -43,7 +43,7 @@ class ObjectDetection(Node):
         fps = self.config["fps"]
         self.is_obj_detection_enabled = self.config["enable_detection"]
 
-        self.current_camera = Camera.DRIVE
+        self.current_camera = Camera.ARM
         self.cap = cv2.VideoCapture(self.current_camera.value)
 
         # timers
@@ -67,7 +67,7 @@ class ObjectDetection(Node):
     def _switch_camera(self, camera: Camera) -> None:
         self.cap.release()
         self.current_camera = camera
-        self.cap = cv2.VideoCapture(self.current_camera.value)
+        self.cap = cv2.VideoCapture(camera.value)
 
     def handle_switch_camera(self, msg):
         camera = Camera(msg.camera)

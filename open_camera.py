@@ -1,6 +1,6 @@
 import cv2
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 # 0 is  the default camera
 
 while True:
@@ -16,3 +16,4 @@ while True:
 
 cap.release()  # releases the camera
 cv2.destroyAllWindows()
+# he

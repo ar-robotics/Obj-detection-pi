@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run --rm -it --user root --network host --device /dev/device_name_goes_here -v $PWD/ai:/ai ros2_humble_ai_workspace 
+docker run --rm -it --user root --network host --device /dev/drive_camera --device /dev/arm_camera -v $PWD/ai:/ai ros2_humble_ai_workspace 
