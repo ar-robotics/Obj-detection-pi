@@ -43,14 +43,14 @@ class ObjectDetection(Node):
         fps = self.config["fps"]
         self.is_obj_detection_enabled = self.config["enable_detection"]
 
-        self.current_camera = Camera.ARM
+        self.current_camera = Camera.DRIVE
         self.cap = cv2.VideoCapture(self.current_camera.value)
 
         # timers
         self.create_timer(1 / fps, self.process_frame_for_detection)
 
         # Load COCO labels
-        self.coco_labels = self.parse_label_map()
+        self.coco_labels = self.load_labels()
 
         # Load the TFLite model and allocate tensors
         self.interpreter = tflite.Interpreter(
@@ -86,22 +86,13 @@ class ObjectDetection(Node):
             pass
 
     @staticmethod
-    def parse_label_map() -> dict:
-        label_map = {}
-        label_map_path = get_path("/labels/mscoco_complete_label.pbtxt")
+    def load_labels() -> list[str]:
+        label_map_path = get_path("/labels/labels-ssd.txt")
 
-        with open(label_map_path, "r") as file:
-            lines = file.readlines()
-            current_id = None
+        with open(label_map_path, "r") as f:
+            return [line.strip() for line in f.readlines()]
 
-            for line in lines:
-                if "id:" in line:
-                    current_id = int(line.strip().split(" ")[-1])
-                elif "display_name:" in line:
-                    display_name = line.strip().split('"')[1]
-                    label_map[current_id] = display_name
-
-        return label_map
+       
 
     def draw_boxes(self, frame, boxes, classes, scores, threshold=0.5):
         height, width, _ = frame.shape
@@ -114,8 +105,8 @@ class ObjectDetection(Node):
                 ymin = int(ymin * height)
                 ymax = int(ymax * height)
                 class_id = int(classes[i])
-                label = self.coco_labels.get(class_id, "Unknown")
-                label_with_score = "{}: {:.2f}".format(label, scores[i])
+                object_name = self.coco_labels[int(classes[i])]
+                label_with_score = "{}: {:.2f}".format(object_name, scores[i])
 
                 cv2.rectangle(frame, (xmin, ymin), (xmax, ymax), (0, 255, 0), 2)
                 cv2.putText(

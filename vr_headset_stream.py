@@ -4,7 +4,7 @@ import cv2
 app = Flask(__name__)
 
 # Initialize video capture with the first webcam device
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture("/dev/drive_camera")
 
 
 def generateframe():
