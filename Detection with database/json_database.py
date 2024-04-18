@@ -570,7 +570,3 @@ data = [
         "size": "Large",
     },
 ]
-db.insert_many(data)
-
-query_result = db.find_one({"type": "person", "name": "John Doe"})
-print(query_result)
