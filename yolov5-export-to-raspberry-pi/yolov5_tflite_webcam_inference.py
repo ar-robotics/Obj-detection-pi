@@ -38,16 +38,14 @@ def detect_video(weights, webcam, img_size, conf_thres, iou_thres):
             # no_of_frames += 1
             image_resized = letterbox_image(Image.fromarray(frame), size)
             image_array = np.asarray(image_resized)
-            normalized_image_array = image_array.astype(np.uint8)
-            print(normalized_image_array)
-            # normalized_image_array = image_array.astype(np.float32) / 255.0
+            #normalized_image_array = image_array.astype(np.uint8)
+            #print(normalized_image_array)
+            normalized_image_array = image_array.astype(np.float32) / 255.0
             result_boxes, result_scores, result_class_names = yolov5_tflite_obj.detect(
                 normalized_image_array
             )
-            print(result_boxes)
             if len(result_boxes) > 0:
                 result_boxes = scale_coords(size, np.array(result_boxes), (w, h))
-            print("happening", "1")
             font = cv2.FONT_HERSHEY_SIMPLEX
 
             # org
@@ -63,7 +61,6 @@ def detect_video(weights, webcam, img_size, conf_thres, iou_thres):
             thickness = 1
 
             for i, r in enumerate(result_boxes):
-                print(r)
                 org = (int(r[0]), int(r[1]))
                 cv2.rectangle(
                     frame,

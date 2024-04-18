@@ -13,6 +13,9 @@ START_TIME = time.time()
 model_path = "/home/pi/Obj-detection-pi/custom-transfer-learning/tflite_models/people-detection.tflite"
 
 
+
+
+
 row_size = 50  # pixels
 left_margin = 24  # pixels
 text_color = (0, 0, 0)  # black

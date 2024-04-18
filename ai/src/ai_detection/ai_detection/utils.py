@@ -5,7 +5,7 @@ path = "/ai/src/ai_detection/ai_detection/{}"
 
 
 class Camera(enum.Enum):
-    DRIVE = "/dev/drive_camera"
+    DRIVE = "/dev/v4l/by-id/usb-046d_Logitech_BRIO_497E5D01-video-index0"
     ARM = "/dev/arm_camera"
 
 

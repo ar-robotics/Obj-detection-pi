@@ -3,10 +3,10 @@ import numpy as np
 import importlib.util
 
 pkg = importlib.util.find_spec("tflite_runtime")
-if pkg in locals():
-    import tflite_runtime.interpreter as tflite
+if pkg:
+    from tflite_runtime.interpreter import Interpreter
 else:
-    import tensorflow.lite.Interpreter as tflite
+    from tensorflow.lite.python.interpreter import Interpreter
 
 
 class ExtractModel:
@@ -26,7 +26,7 @@ class ExtractModel:
             label_path: Path to the label file
         """
         self.model_path = model_path
-        self.__interpreter = tflite(model_path=self.model_path)
+        self.__interpreter = Interpreter(model_path=self.model_path)
         self.label_path = label_path
         self.__interpreter.allocate_tensors()
 
@@ -148,19 +148,18 @@ class Detection:
         input_data = self.__floating_model(input_data)
         self.interpreter.set_tensor(self.input_detail[0]["index"], input_data)
         self.interpreter.invoke()
-        # self.scores = self.interpreter.get_tensor(  # noqa
-        #     self.output_detail[self.scores_idx]["index"]
-        # )[0]
-        # self.boxes = self.interpreter.get_tensor(  # noqa
-        #     self.output_detail[self.boxes_idx]["index"]
-        # )[0]
-        # self.classes = self.interpreter.get_tensor(  # noqa
-        #     self.output_detail[self.classes_idx]["index"]
-        # )[0]
+        self.scores = self.interpreter.get_tensor(  # noqa
+            self.output_detail[self.scores_idx]["index"]
+        )[0]
+        self.boxes = self.interpreter.get_tensor(  # noqa
+            self.output_detail[self.boxes_idx]["index"]
+        )[0]
+        self.classes = self.interpreter.get_tensor(  # noqa
+            self.output_detail[self.classes_idx]["index"]
+        )[0]
         output_data = self.interpreter.get_tensor(
             self.output_detail[0]["index"]
         )  # noqa
-        print(output_data)
 
     def __floating_model(self, input_data):
         """Normalize input data to float type

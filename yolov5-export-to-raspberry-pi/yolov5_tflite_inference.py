@@ -1,4 +1,4 @@
-from tensorflow.lite.python import interpreter as tflite
+from tflite_runtime import interpreter as tflite
 import numpy as np
 import cv2
 
@@ -89,10 +89,8 @@ class yolov5_tflite:
         unions = box_area + boxes_area - intersections
         # element wise division
         # if the intersection is 0, then their ratio is 0
-        if intersections == 0:
-            ious = 0
-        else:
-            ious = intersections / unions
+        
+        ious = intersections / unions
         return ious
 
     def nms(self, prediction):
@@ -117,7 +115,7 @@ class yolov5_tflite:
     def detect(self, image):
         original_size = image.shape[:2]
         input_data = np.ndarray(shape=(1, self.image_size, self.image_size, 3))
-        input_data = input_data.astype(np.uint8)
+        input_data = input_data.astype(np.float32)
         # image = cv2.resize(image, (self.image_size, self.image_size))
         # input_data[0] = image.astype(np.float32) / 255.0
         input_data[0] = image
@@ -129,10 +127,10 @@ class yolov5_tflite:
         # output_details = self.interpreter.get_output_details()
 
         # Get the quantized output and dequantize it
-        scale, zero_point = self.output_details[0]["quantization"]
+        #scale, zero_point = self.output_details[0]["quantization"]
 
-        pred = self.interpreter.get_tensor(self.output_details[0]["index"])
-        pred = scale * (pred.astype(np.float32) - zero_point)
+        #pred = self.interpreter.get_tensor(self.output_details[0]["index"])
+        #pred = scale * (pred.astype(np.float32) - zero_point)
         self.interpreter.set_tensor(self.input_details[0]["index"], input_data)
         self.interpreter.invoke()
         pred = self.interpreter.get_tensor(self.output_details[0]["index"])
@@ -144,5 +142,5 @@ class yolov5_tflite:
         pred[..., 3] *= original_size[0]  # h
 
         result_boxes, result_scores, result_class_names = self.nms(pred)
-        print(result_boxes, result_scores, result_class_names)
+        #print(result_boxes, result_scores, result_class_names)
         return result_boxes, result_scores, result_class_names

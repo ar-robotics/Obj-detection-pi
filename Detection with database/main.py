@@ -20,6 +20,7 @@ import time
 from Database import Database
 from Detection import ExtractModel, Detection
 from Videostream import VideoStream
+from json_database import JsonDatabase
 
 # Define and parse input arguments
 parser = argparse.ArgumentParser()
@@ -94,16 +95,17 @@ def main():
     # return
     videostream = VideoStream(resolution=(imW, imH), framerate=30).start()
     time.sleep(1)
+    json_path = "db.json"
     db_name = "mongodbVSCodePlaygroundDB"
     collection_name = "classes"
-    database = Database(db_name, collection_name)
-    collection = database.get_collection()
+    #database = Database(db_name, collection_name)
+    #collection = database.get_collection()
+    database = JsonDatabase(json_path)
     extractor = ExtractModel(PATH_TO_CKPT, PATH_TO_LABELS)
     labels = extractor.load_labels()
 
     interpreter = extractor.get_interpreter()
     input_details, output_details, height, width = extractor.get_details()
-    print(output_details)
     detection_obj = Detection(
         labels,
         height,
@@ -111,7 +113,7 @@ def main():
         interpreter,
         input_details,
         output_details,
-        collection,  # noqa
+        database,  # noqa #send collection instead of database
     )
     frame_rate_calc, freq = detection_obj.calculate_framerate()
     while True:
