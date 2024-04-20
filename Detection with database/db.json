@@ -1,0 +1,3043 @@
+{
+    "person": [
+        {
+            "name": "John Doe",
+            "age": 30,
+            "occupation": "Software Developer"
+        },
+        {
+            "type": "person",
+            "name": "John Doe",
+            "age": 30,
+            "occupation": "Software Developer"
+        },
+        {
+            "type": "person",
+            "name": "John Doe",
+            "age": 30,
+            "occupation": "Software Developer"
+        },
+        {
+            "type": "person",
+            "name": "John Doe",
+            "age": 30,
+            "occupation": "Software Developer"
+        },
+        {
+            "type": "person",
+            "name": "John Doe",
+            "age": 30,
+            "occupation": "Software Developer"
+        }
+    ],
+    "bicycle": [
+        {
+            "brand": "Trek",
+            "model": "Emonda",
+            "color": "Red",
+            "frameSize": "56cm"
+        },
+        {
+            "type": "bicycle",
+            "brand": "Trek",
+            "model": "Emonda",
+            "color": "Red",
+            "frameSize": "56cm"
+        },
+        {
+            "type": "bicycle",
+            "brand": "Trek",
+            "model": "Emonda",
+            "color": "Red",
+            "frameSize": "56cm"
+        },
+        {
+            "type": "bicycle",
+            "brand": "Trek",
+            "model": "Emonda",
+            "color": "Red",
+            "frameSize": "56cm"
+        },
+        {
+            "type": "bicycle",
+            "brand": "Trek",
+            "model": "Emonda",
+            "color": "Red",
+            "frameSize": "56cm"
+        }
+    ],
+    "car": [
+        {
+            "brand": "Mercedes",
+            "model": "Emonda",
+            "color": "Red",
+            "year": 2019
+        },
+        {
+            "type": "car",
+            "brand": "Mercedes",
+            "model": "Emonda",
+            "color": "Red",
+            "year": 2019
+        },
+        {
+            "type": "car",
+            "brand": "Mercedes",
+            "model": "Emonda",
+            "color": "Red",
+            "year": 2019
+        },
+        {
+            "type": "car",
+            "brand": "Mercedes",
+            "model": "Emonda",
+            "color": "Red",
+            "year": 2019
+        },
+        {
+            "type": "car",
+            "brand": "Mercedes",
+            "model": "Emonda",
+            "color": "Red",
+            "year": 2019
+        }
+    ],
+    "motorcycle": [
+        {
+            "brand": "Harley Davidson",
+            "model": "v2"
+        },
+        {
+            "type": "motorcycle",
+            "brand": "Harley Davidson",
+            "model": "v2"
+        },
+        {
+            "type": "motorcycle",
+            "brand": "Harley Davidson",
+            "model": "v2"
+        },
+        {
+            "type": "motorcycle",
+            "brand": "Harley Davidson",
+            "model": "v2"
+        },
+        {
+            "type": "motorcycle",
+            "brand": "Harley Davidson",
+            "model": "v2"
+        }
+    ],
+    "airplane": [
+        {
+            "brand": "Boeing",
+            "color": "White"
+        },
+        {
+            "type": "airplane",
+            "brand": "Boeing",
+            "color": "White"
+        },
+        {
+            "type": "airplane",
+            "brand": "Boeing",
+            "color": "White"
+        },
+        {
+            "type": "airplane",
+            "brand": "Boeing",
+            "color": "White"
+        },
+        {
+            "type": "airplane",
+            "brand": "Boeing",
+            "color": "White"
+        }
+    ],
+    "bus": [
+        {
+            "brand": "Greyhound",
+            "color": "White"
+        },
+        {
+            "type": "bus",
+            "brand": "Greyhound",
+            "color": "White"
+        },
+        {
+            "type": "bus",
+            "brand": "Greyhound",
+            "color": "White"
+        },
+        {
+            "type": "bus",
+            "brand": "Greyhound",
+            "color": "White"
+        },
+        {
+            "type": "bus",
+            "brand": "Greyhound",
+            "color": "White"
+        }
+    ],
+    "train": [
+        {
+            "brand": "Amtrak",
+            "color": "White"
+        },
+        {
+            "type": "train",
+            "brand": "Amtrak",
+            "color": "White"
+        },
+        {
+            "type": "train",
+            "brand": "Amtrak",
+            "color": "White"
+        },
+        {
+            "type": "train",
+            "brand": "Amtrak",
+            "color": "White"
+        },
+        {
+            "type": "train",
+            "brand": "Amtrak",
+            "color": "White"
+        }
+    ],
+    "truck": [
+        {
+            "brand": "Ford",
+            "color": "White"
+        },
+        {
+            "type": "truck",
+            "brand": "Ford",
+            "color": "White"
+        },
+        {
+            "type": "truck",
+            "brand": "Ford",
+            "color": "White"
+        },
+        {
+            "type": "truck",
+            "brand": "Ford",
+            "color": "White"
+        },
+        {
+            "type": "truck",
+            "brand": "Ford",
+            "color": "White"
+        }
+    ],
+    "boat": [
+        {
+            "brand": "Yamaha",
+            "color": "White"
+        },
+        {
+            "type": "boat",
+            "brand": "Yamaha",
+            "color": "White"
+        },
+        {
+            "type": "boat",
+            "brand": "Yamaha",
+            "color": "White"
+        },
+        {
+            "type": "boat",
+            "brand": "Yamaha",
+            "color": "White"
+        },
+        {
+            "type": "boat",
+            "brand": "Yamaha",
+            "color": "White"
+        }
+    ],
+    "traffic light": [
+        {
+            "color": "Red"
+        },
+        {
+            "type": "traffic light",
+            "color": "Red"
+        },
+        {
+            "type": "traffic light",
+            "color": "Red"
+        },
+        {
+            "type": "traffic light",
+            "color": "Red"
+        },
+        {
+            "type": "traffic light",
+            "color": "Red"
+        }
+    ],
+    "fire hydrant": [
+        {
+            "color": "Red"
+        },
+        {
+            "type": "fire hydrant",
+            "color": "Red"
+        },
+        {
+            "type": "fire hydrant",
+            "color": "Red"
+        },
+        {
+            "type": "fire hydrant",
+            "color": "Red"
+        },
+        {
+            "type": "fire hydrant",
+            "color": "Red"
+        }
+    ],
+    "street sign": [
+        {
+            "color": "Red-Yellow-Green"
+        },
+        {
+            "type": "street sign",
+            "color": "Red-Yellow-Green"
+        },
+        {
+            "type": "street sign",
+            "color": "Red-Yellow-Green"
+        },
+        {
+            "type": "street sign",
+            "color": "Red-Yellow-Green"
+        },
+        {
+            "type": "street sign",
+            "color": "Red-Yellow-Green"
+        }
+    ],
+    "stop sign": [
+        {
+            "color": "Red"
+        },
+        {
+            "type": "stop sign",
+            "color": "Red"
+        },
+        {
+            "type": "stop sign",
+            "color": "Red"
+        },
+        {
+            "type": "stop sign",
+            "color": "Red"
+        },
+        {
+            "type": "stop sign",
+            "color": "Red"
+        }
+    ],
+    "parking meter": [
+        {
+            "color": "Red",
+            "weight": "50",
+            "location": "Downtown",
+            "timeLimit": "2 hours"
+        },
+        {
+            "type": "parking meter",
+            "color": "Red",
+            "weight": "50",
+            "location": "Downtown",
+            "timeLimit": "2 hours"
+        },
+        {
+            "type": "parking meter",
+            "color": "Red",
+            "weight": "50",
+            "location": "Downtown",
+            "timeLimit": "2 hours"
+        },
+        {
+            "type": "parking meter",
+            "color": "Red",
+            "weight": "50",
+            "location": "Downtown",
+            "timeLimit": "2 hours"
+        },
+        {
+            "type": "parking meter",
+            "color": "Red",
+            "weight": "50",
+            "location": "Downtown",
+            "timeLimit": "2 hours"
+        }
+    ],
+    "bench": [
+        {
+            "color": "Red",
+            "material": "Wood",
+            "location": "Central Park",
+            "length": "5 feet"
+        },
+        {
+            "type": "bench",
+            "color": "Red",
+            "material": "Wood",
+            "location": "Central Park",
+            "length": "5 feet"
+        },
+        {
+            "type": "bench",
+            "color": "Red",
+            "material": "Wood",
+            "location": "Central Park",
+            "length": "5 feet"
+        },
+        {
+            "type": "bench",
+            "color": "Red",
+            "material": "Wood",
+            "location": "Central Park",
+            "length": "5 feet"
+        },
+        {
+            "type": "bench",
+            "color": "Red",
+            "material": "Wood",
+            "location": "Central Park",
+            "length": "5 feet"
+        }
+    ],
+    "bird": [
+        {
+            "color": "Red",
+            "species": "Cardinal",
+            "habitat": "Woodlands",
+            "diet": "Seeds"
+        },
+        {
+            "type": "bird",
+            "color": "Red",
+            "species": "Cardinal",
+            "habitat": "Woodlands",
+            "diet": "Seeds"
+        },
+        {
+            "type": "bird",
+            "color": "Red",
+            "species": "Cardinal",
+            "habitat": "Woodlands",
+            "diet": "Seeds"
+        },
+        {
+            "type": "bird",
+            "color": "Red",
+            "species": "Cardinal",
+            "habitat": "Woodlands",
+            "diet": "Seeds"
+        },
+        {
+            "type": "bird",
+            "color": "Red",
+            "species": "Cardinal",
+            "habitat": "Woodlands",
+            "diet": "Seeds"
+        }
+    ],
+    "cat": [
+        {
+            "color": "Red",
+            "breed": "Orange Tabby",
+            "age": "3 years",
+            "name": "Garfield"
+        },
+        {
+            "type": "cat",
+            "color": "Red",
+            "breed": "Orange Tabby",
+            "age": "3 years",
+            "name": "Garfield"
+        },
+        {
+            "type": "cat",
+            "color": "Red",
+            "breed": "Orange Tabby",
+            "age": "3 years",
+            "name": "Garfield"
+        },
+        {
+            "type": "cat",
+            "color": "Red",
+            "breed": "Orange Tabby",
+            "age": "3 years",
+            "name": "Garfield"
+        },
+        {
+            "type": "cat",
+            "color": "Red",
+            "breed": "Orange Tabby",
+            "age": "3 years",
+            "name": "Garfield"
+        }
+    ],
+    "dog": [
+        {
+            "color": "Red",
+            "breed": "Irish Setter",
+            "age": "5 years",
+            "name": "Rusty"
+        },
+        {
+            "type": "dog",
+            "color": "Red",
+            "breed": "Irish Setter",
+            "age": "5 years",
+            "name": "Rusty"
+        },
+        {
+            "type": "dog",
+            "color": "Red",
+            "breed": "Irish Setter",
+            "age": "5 years",
+            "name": "Rusty"
+        },
+        {
+            "type": "dog",
+            "color": "Red",
+            "breed": "Irish Setter",
+            "age": "5 years",
+            "name": "Rusty"
+        },
+        {
+            "type": "dog",
+            "color": "Red",
+            "breed": "Irish Setter",
+            "age": "5 years",
+            "name": "Rusty"
+        }
+    ],
+    "horse": [
+        {
+            "color": "Red",
+            "breed": "Chestnut",
+            "age": "7 years",
+            "name": "Copper"
+        },
+        {
+            "type": "horse",
+            "color": "Red",
+            "breed": "Chestnut",
+            "age": "7 years",
+            "name": "Copper"
+        },
+        {
+            "type": "horse",
+            "color": "Red",
+            "breed": "Chestnut",
+            "age": "7 years",
+            "name": "Copper"
+        },
+        {
+            "type": "horse",
+            "color": "Red",
+            "breed": "Chestnut",
+            "age": "7 years",
+            "name": "Copper"
+        },
+        {
+            "type": "horse",
+            "color": "Red",
+            "breed": "Chestnut",
+            "age": "7 years",
+            "name": "Copper"
+        }
+    ],
+    "sheep": [
+        {
+            "color": "Red",
+            "breed": "Merino",
+            "age": "4 years",
+            "woolQuality": "High"
+        },
+        {
+            "type": "sheep",
+            "color": "Red",
+            "breed": "Merino",
+            "age": "4 years",
+            "woolQuality": "High"
+        },
+        {
+            "type": "sheep",
+            "color": "Red",
+            "breed": "Merino",
+            "age": "4 years",
+            "woolQuality": "High"
+        },
+        {
+            "type": "sheep",
+            "color": "Red",
+            "breed": "Merino",
+            "age": "4 years",
+            "woolQuality": "High"
+        },
+        {
+            "type": "sheep",
+            "color": "Red",
+            "breed": "Merino",
+            "age": "4 years",
+            "woolQuality": "High"
+        }
+    ],
+    "cow": [
+        {
+            "color": "Red",
+            "breed": "Aberdeen Angus",
+            "age": "5 years",
+            "milkProduction": "Low"
+        },
+        {
+            "type": "cow",
+            "color": "Red",
+            "breed": "Aberdeen Angus",
+            "age": "5 years",
+            "milkProduction": "Low"
+        },
+        {
+            "type": "cow",
+            "color": "Red",
+            "breed": "Aberdeen Angus",
+            "age": "5 years",
+            "milkProduction": "Low"
+        },
+        {
+            "type": "cow",
+            "color": "Red",
+            "breed": "Aberdeen Angus",
+            "age": "5 years",
+            "milkProduction": "Low"
+        },
+        {
+            "type": "cow",
+            "color": "Red",
+            "breed": "Aberdeen Angus",
+            "age": "5 years",
+            "milkProduction": "Low"
+        }
+    ],
+    "elephant": [
+        {
+            "color": "Red",
+            "species": "African",
+            "age": "20 years",
+            "name": "Ruby"
+        },
+        {
+            "type": "elephant",
+            "color": "Red",
+            "species": "African",
+            "age": "20 years",
+            "name": "Ruby"
+        },
+        {
+            "type": "elephant",
+            "color": "Red",
+            "species": "African",
+            "age": "20 years",
+            "name": "Ruby"
+        },
+        {
+            "type": "elephant",
+            "color": "Red",
+            "species": "African",
+            "age": "20 years",
+            "name": "Ruby"
+        },
+        {
+            "type": "elephant",
+            "color": "Red",
+            "species": "African",
+            "age": "20 years",
+            "name": "Ruby"
+        }
+    ],
+    "bear": [
+        {
+            "color": "Red",
+            "species": "Brown Bear",
+            "habitat": "Forest",
+            "diet": "Omnivore"
+        },
+        {
+            "type": "bear",
+            "color": "Red",
+            "species": "Brown Bear",
+            "habitat": "Forest",
+            "diet": "Omnivore"
+        },
+        {
+            "type": "bear",
+            "color": "Red",
+            "species": "Brown Bear",
+            "habitat": "Forest",
+            "diet": "Omnivore"
+        },
+        {
+            "type": "bear",
+            "color": "Red",
+            "species": "Brown Bear",
+            "habitat": "Forest",
+            "diet": "Omnivore"
+        },
+        {
+            "type": "bear",
+            "color": "Red",
+            "species": "Brown Bear",
+            "habitat": "Forest",
+            "diet": "Omnivore"
+        }
+    ],
+    "zebra": [
+        {
+            "color": "Red",
+            "species": "Plains Zebra",
+            "habitat": "Savanna",
+            "stripes": "Unique"
+        },
+        {
+            "type": "zebra",
+            "color": "Red",
+            "species": "Plains Zebra",
+            "habitat": "Savanna",
+            "stripes": "Unique"
+        },
+        {
+            "type": "zebra",
+            "color": "Red",
+            "species": "Plains Zebra",
+            "habitat": "Savanna",
+            "stripes": "Unique"
+        },
+        {
+            "type": "zebra",
+            "color": "Red",
+            "species": "Plains Zebra",
+            "habitat": "Savanna",
+            "stripes": "Unique"
+        },
+        {
+            "type": "zebra",
+            "color": "Red",
+            "species": "Plains Zebra",
+            "habitat": "Savanna",
+            "stripes": "Unique"
+        }
+    ],
+    "giraffe": [
+        {
+            "color": "Red",
+            "species": "Masai Giraffe",
+            "habitat": "Savanna",
+            "height": "16 feet"
+        },
+        {
+            "type": "giraffe",
+            "color": "Red",
+            "species": "Masai Giraffe",
+            "habitat": "Savanna",
+            "height": "16 feet"
+        },
+        {
+            "type": "giraffe",
+            "color": "Red",
+            "species": "Masai Giraffe",
+            "habitat": "Savanna",
+            "height": "16 feet"
+        },
+        {
+            "type": "giraffe",
+            "color": "Red",
+            "species": "Masai Giraffe",
+            "habitat": "Savanna",
+            "height": "16 feet"
+        },
+        {
+            "type": "giraffe",
+            "color": "Red",
+            "species": "Masai Giraffe",
+            "habitat": "Savanna",
+            "height": "16 feet"
+        }
+    ],
+    "hat": [
+        {
+            "color": "Red",
+            "material": "Wool",
+            "size": "Medium",
+            "style": "Beanie"
+        },
+        {
+            "type": "hat",
+            "color": "Red",
+            "material": "Wool",
+            "size": "Medium",
+            "style": "Beanie"
+        },
+        {
+            "type": "hat",
+            "color": "Red",
+            "material": "Wool",
+            "size": "Medium",
+            "style": "Beanie"
+        },
+        {
+            "type": "hat",
+            "color": "Red",
+            "material": "Wool",
+            "size": "Medium",
+            "style": "Beanie"
+        },
+        {
+            "type": "hat",
+            "color": "Red",
+            "material": "Wool",
+            "size": "Medium",
+            "style": "Beanie"
+        }
+    ],
+    "backpack": [
+        {
+            "color": "Red",
+            "material": "Nylon",
+            "size": "20L",
+            "brand": "North Face"
+        },
+        {
+            "type": "backpack",
+            "color": "Red",
+            "material": "Nylon",
+            "size": "20L",
+            "brand": "North Face"
+        },
+        {
+            "type": "backpack",
+            "color": "Red",
+            "material": "Nylon",
+            "size": "20L",
+            "brand": "North Face"
+        },
+        {
+            "type": "backpack",
+            "color": "Red",
+            "material": "Nylon",
+            "size": "20L",
+            "brand": "North Face"
+        },
+        {
+            "type": "backpack",
+            "color": "Red",
+            "material": "Nylon",
+            "size": "20L",
+            "brand": "North Face"
+        }
+    ],
+    "umbrella": [
+        {
+            "color": "Red",
+            "size": "Large",
+            "brand": "Totes",
+            "waterproof": "Yes"
+        },
+        {
+            "type": "umbrella",
+            "color": "Red",
+            "size": "Large",
+            "brand": "Totes",
+            "waterproof": "Yes"
+        },
+        {
+            "type": "umbrella",
+            "color": "Red",
+            "size": "Large",
+            "brand": "Totes",
+            "waterproof": "Yes"
+        },
+        {
+            "type": "umbrella",
+            "color": "Red",
+            "size": "Large",
+            "brand": "Totes",
+            "waterproof": "Yes"
+        },
+        {
+            "type": "umbrella",
+            "color": "Red",
+            "size": "Large",
+            "brand": "Totes",
+            "waterproof": "Yes"
+        }
+    ],
+    "shoe": [
+        {
+            "color": "Red",
+            "size": "10",
+            "brand": "Nike",
+            "style": "Sneakers"
+        },
+        {
+            "type": "shoe",
+            "color": "Red",
+            "size": "10",
+            "brand": "Nike",
+            "style": "Sneakers"
+        },
+        {
+            "type": "shoe",
+            "color": "Red",
+            "size": "10",
+            "brand": "Nike",
+            "style": "Sneakers"
+        },
+        {
+            "type": "shoe",
+            "color": "Red",
+            "size": "10",
+            "brand": "Nike",
+            "style": "Sneakers"
+        },
+        {
+            "type": "shoe",
+            "color": "Red",
+            "size": "10",
+            "brand": "Nike",
+            "style": "Sneakers"
+        }
+    ],
+    "eye glasses": [
+        {
+            "color": "Red",
+            "brand": "Ray-Ban",
+            "frameMaterial": "Metal",
+            "lensType": "Prescription"
+        },
+        {
+            "type": "eye glasses",
+            "color": "Red",
+            "brand": "Ray-Ban",
+            "frameMaterial": "Metal",
+            "lensType": "Prescription"
+        },
+        {
+            "type": "eye glasses",
+            "color": "Red",
+            "brand": "Ray-Ban",
+            "frameMaterial": "Metal",
+            "lensType": "Prescription"
+        },
+        {
+            "type": "eye glasses",
+            "color": "Red",
+            "brand": "Ray-Ban",
+            "frameMaterial": "Metal",
+            "lensType": "Prescription"
+        },
+        {
+            "type": "eye glasses",
+            "color": "Red",
+            "brand": "Ray-Ban",
+            "frameMaterial": "Metal",
+            "lensType": "Prescription"
+        }
+    ],
+    "handbag": [
+        {
+            "color": "Red",
+            "material": "Leather",
+            "brand": "Gucci",
+            "size": "Medium"
+        },
+        {
+            "type": "handbag",
+            "color": "Red",
+            "material": "Leather",
+            "brand": "Gucci",
+            "size": "Medium"
+        },
+        {
+            "type": "handbag",
+            "color": "Red",
+            "material": "Leather",
+            "brand": "Gucci",
+            "size": "Medium"
+        },
+        {
+            "type": "handbag",
+            "color": "Red",
+            "material": "Leather",
+            "brand": "Gucci",
+            "size": "Medium"
+        },
+        {
+            "type": "handbag",
+            "color": "Red",
+            "material": "Leather",
+            "brand": "Gucci",
+            "size": "Medium"
+        }
+    ],
+    "tie": [
+        {
+            "color": "Red",
+            "material": "Silk",
+            "length": "Standard",
+            "brand": "Hugo Boss"
+        },
+        {
+            "type": "tie",
+            "color": "Red",
+            "material": "Silk",
+            "length": "Standard",
+            "brand": "Hugo Boss"
+        },
+        {
+            "type": "tie",
+            "color": "Red",
+            "material": "Silk",
+            "length": "Standard",
+            "brand": "Hugo Boss"
+        },
+        {
+            "type": "tie",
+            "color": "Red",
+            "material": "Silk",
+            "length": "Standard",
+            "brand": "Hugo Boss"
+        },
+        {
+            "type": "tie",
+            "color": "Red",
+            "material": "Silk",
+            "length": "Standard",
+            "brand": "Hugo Boss"
+        }
+    ],
+    "suitcase": [
+        {
+            "color": "Red",
+            "material": "Polycarbonate",
+            "size": "28 inch",
+            "brand": "Samsonite"
+        },
+        {
+            "type": "suitcase",
+            "color": "Red",
+            "material": "Polycarbonate",
+            "size": "28 inch",
+            "brand": "Samsonite"
+        },
+        {
+            "type": "suitcase",
+            "color": "Red",
+            "material": "Polycarbonate",
+            "size": "28 inch",
+            "brand": "Samsonite"
+        },
+        {
+            "type": "suitcase",
+            "color": "Red",
+            "material": "Polycarbonate",
+            "size": "28 inch",
+            "brand": "Samsonite"
+        },
+        {
+            "type": "suitcase",
+            "color": "Red",
+            "material": "Polycarbonate",
+            "size": "28 inch",
+            "brand": "Samsonite"
+        }
+    ],
+    "frisbee": [
+        {
+            "color": "Red",
+            "diameter": "10 inches",
+            "material": "Plastic",
+            "brand": "Wham-O"
+        },
+        {
+            "type": "frisbee",
+            "color": "Red",
+            "diameter": "10 inches",
+            "material": "Plastic",
+            "brand": "Wham-O"
+        },
+        {
+            "type": "frisbee",
+            "color": "Red",
+            "diameter": "10 inches",
+            "material": "Plastic",
+            "brand": "Wham-O"
+        },
+        {
+            "type": "frisbee",
+            "color": "Red",
+            "diameter": "10 inches",
+            "material": "Plastic",
+            "brand": "Wham-O"
+        },
+        {
+            "type": "frisbee",
+            "color": "Red",
+            "diameter": "10 inches",
+            "material": "Plastic",
+            "brand": "Wham-O"
+        }
+    ],
+    "skis": [
+        {
+            "color": "Red",
+            "length": "170 cm",
+            "brand": "Rossignol",
+            "type-1": "All Mountain"
+        },
+        {
+            "type": "skis",
+            "color": "Red",
+            "length": "170 cm",
+            "brand": "Rossignol",
+            "type-1": "All Mountain"
+        },
+        {
+            "type": "skis",
+            "color": "Red",
+            "length": "170 cm",
+            "brand": "Rossignol",
+            "type-1": "All Mountain"
+        },
+        {
+            "type": "skis",
+            "color": "Red",
+            "length": "170 cm",
+            "brand": "Rossignol",
+            "type-1": "All Mountain"
+        },
+        {
+            "type": "skis",
+            "color": "Red",
+            "length": "170 cm",
+            "brand": "Rossignol",
+            "type-1": "All Mountain"
+        }
+    ],
+    "snowboard": [
+        {
+            "color": "Red",
+            "length": "155 cm",
+            "brand": "Burton",
+            "type-1": "Freestyle"
+        },
+        {
+            "type": "snowboard",
+            "color": "Red",
+            "length": "155 cm",
+            "brand": "Burton",
+            "type-1": "Freestyle"
+        },
+        {
+            "type": "snowboard",
+            "color": "Red",
+            "length": "155 cm",
+            "brand": "Burton",
+            "type-1": "Freestyle"
+        },
+        {
+            "type": "snowboard",
+            "color": "Red",
+            "length": "155 cm",
+            "brand": "Burton",
+            "type-1": "Freestyle"
+        },
+        {
+            "type": "snowboard",
+            "color": "Red",
+            "length": "155 cm",
+            "brand": "Burton",
+            "type-1": "Freestyle"
+        }
+    ],
+    "sports ball": [
+        {
+            "color": "Red",
+            "exact type": "Soccer Ball",
+            "size": "5",
+            "brand": "Adidas"
+        },
+        {
+            "type": "sports ball",
+            "color": "Red",
+            "exact type": "Soccer Ball",
+            "size": "5",
+            "brand": "Adidas"
+        },
+        {
+            "type": "sports ball",
+            "color": "Red",
+            "exact type": "Soccer Ball",
+            "size": "5",
+            "brand": "Adidas"
+        },
+        {
+            "type": "sports ball",
+            "color": "Red",
+            "exact type": "Soccer Ball",
+            "size": "5",
+            "brand": "Adidas"
+        },
+        {
+            "type": "sports ball",
+            "color": "Red",
+            "exact type": "Soccer Ball",
+            "size": "5",
+            "brand": "Adidas"
+        }
+    ],
+    "kite": [
+        {
+            "color": "Red",
+            "size": "Large",
+            "material": "Nylon",
+            "style": "Delta"
+        },
+        {
+            "type": "kite",
+            "color": "Red",
+            "size": "Large",
+            "material": "Nylon",
+            "style": "Delta"
+        },
+        {
+            "type": "kite",
+            "color": "Red",
+            "size": "Large",
+            "material": "Nylon",
+            "style": "Delta"
+        },
+        {
+            "type": "kite",
+            "color": "Red",
+            "size": "Large",
+            "material": "Nylon",
+            "style": "Delta"
+        },
+        {
+            "type": "kite",
+            "color": "Red",
+            "size": "Large",
+            "material": "Nylon",
+            "style": "Delta"
+        }
+    ],
+    "baseball bat": [
+        {
+            "color": "Red",
+            "material": "Aluminum",
+            "length": "34 inches",
+            "brand": "Easton"
+        },
+        {
+            "type": "baseball bat",
+            "color": "Red",
+            "material": "Aluminum",
+            "length": "34 inches",
+            "brand": "Easton"
+        },
+        {
+            "type": "baseball bat",
+            "color": "Red",
+            "material": "Aluminum",
+            "length": "34 inches",
+            "brand": "Easton"
+        },
+        {
+            "type": "baseball bat",
+            "color": "Red",
+            "material": "Aluminum",
+            "length": "34 inches",
+            "brand": "Easton"
+        },
+        {
+            "type": "baseball bat",
+            "color": "Red",
+            "material": "Aluminum",
+            "length": "34 inches",
+            "brand": "Easton"
+        }
+    ],
+    "baseball glove": [
+        {
+            "color": "Red",
+            "size": "12 inches",
+            "material": "Leather",
+            "brand": "Wilson"
+        },
+        {
+            "type": "baseball glove",
+            "color": "Red",
+            "size": "12 inches",
+            "material": "Leather",
+            "brand": "Wilson"
+        },
+        {
+            "type": "baseball glove",
+            "color": "Red",
+            "size": "12 inches",
+            "material": "Leather",
+            "brand": "Wilson"
+        },
+        {
+            "type": "baseball glove",
+            "color": "Red",
+            "size": "12 inches",
+            "material": "Leather",
+            "brand": "Wilson"
+        },
+        {
+            "type": "baseball glove",
+            "color": "Red",
+            "size": "12 inches",
+            "material": "Leather",
+            "brand": "Wilson"
+        }
+    ],
+    "skateboard": [
+        {
+            "color": "Red",
+            "length": "32 inches",
+            "brand": "Santa Cruz",
+            "exact type": "Street"
+        },
+        {
+            "type": "skateboard",
+            "color": "Red",
+            "length": "32 inches",
+            "brand": "Santa Cruz",
+            "exact type": "Street"
+        },
+        {
+            "type": "skateboard",
+            "color": "Red",
+            "length": "32 inches",
+            "brand": "Santa Cruz",
+            "exact type": "Street"
+        },
+        {
+            "type": "skateboard",
+            "color": "Red",
+            "length": "32 inches",
+            "brand": "Santa Cruz",
+            "exact type": "Street"
+        },
+        {
+            "type": "skateboard",
+            "color": "Red",
+            "length": "32 inches",
+            "brand": "Santa Cruz",
+            "exact type": "Street"
+        }
+    ],
+    "surfboard": [
+        {
+            "color": "Red",
+            "length": "6 feet",
+            "exact type": "Shortboard",
+            "brand": "Quiksilver"
+        },
+        {
+            "type": "surfboard",
+            "color": "Red",
+            "length": "6 feet",
+            "exact type": "Shortboard",
+            "brand": "Quiksilver"
+        },
+        {
+            "type": "surfboard",
+            "color": "Red",
+            "length": "6 feet",
+            "exact type": "Shortboard",
+            "brand": "Quiksilver"
+        },
+        {
+            "type": "surfboard",
+            "color": "Red",
+            "length": "6 feet",
+            "exact type": "Shortboard",
+            "brand": "Quiksilver"
+        },
+        {
+            "type": "surfboard",
+            "color": "Red",
+            "length": "6 feet",
+            "exact type": "Shortboard",
+            "brand": "Quiksilver"
+        }
+    ],
+    "tennis racket": [
+        {
+            "color": "Red",
+            "brand": "Wilson",
+            "model": "Pro Staff",
+            "gripSize": "4 3/8"
+        },
+        {
+            "type": "tennis racket",
+            "color": "Red",
+            "brand": "Wilson",
+            "model": "Pro Staff",
+            "gripSize": "4 3/8"
+        },
+        {
+            "type": "tennis racket",
+            "color": "Red",
+            "brand": "Wilson",
+            "model": "Pro Staff",
+            "gripSize": "4 3/8"
+        },
+        {
+            "type": "tennis racket",
+            "color": "Red",
+            "brand": "Wilson",
+            "model": "Pro Staff",
+            "gripSize": "4 3/8"
+        },
+        {
+            "type": "tennis racket",
+            "color": "Red",
+            "brand": "Wilson",
+            "model": "Pro Staff",
+            "gripSize": "4 3/8"
+        }
+    ],
+    "bottle": [
+        {
+            "color": "Red",
+            "material": "Stainless Steel",
+            "capacity": "1L",
+            "brand": "Hydro Flask"
+        },
+        {
+            "type": "bottle",
+            "color": "Red",
+            "material": "Stainless Steel",
+            "capacity": "1L",
+            "brand": "Hydro Flask"
+        },
+        {
+            "type": "bottle",
+            "color": "Red",
+            "material": "Stainless Steel",
+            "capacity": "1L",
+            "brand": "Hydro Flask"
+        },
+        {
+            "type": "bottle",
+            "color": "Red",
+            "material": "Stainless Steel",
+            "capacity": "1L",
+            "brand": "Hydro Flask"
+        },
+        {
+            "type": "bottle",
+            "color": "Red",
+            "material": "Stainless Steel",
+            "capacity": "1L",
+            "brand": "Hydro Flask"
+        }
+    ],
+    "plate": [
+        {
+            "color": "Red"
+        },
+        {
+            "type": "plate",
+            "color": "Red"
+        },
+        {
+            "type": "plate",
+            "color": "Red"
+        },
+        {
+            "type": "plate",
+            "color": "Red"
+        },
+        {
+            "type": "plate",
+            "color": "Red"
+        }
+    ],
+    "wine glass": [
+        {
+            "color": "Red",
+            "year bought": "2012"
+        },
+        {
+            "type": "wine glass",
+            "color": "Red",
+            "year bought": "2012"
+        },
+        {
+            "type": "wine glass",
+            "color": "Red",
+            "year bought": "2012"
+        },
+        {
+            "type": "wine glass",
+            "color": "Red",
+            "year bought": "2012"
+        },
+        {
+            "type": "wine glass",
+            "color": "Red",
+            "year bought": "2012"
+        }
+    ],
+    "cup": [
+        {
+            "color": "Red"
+        },
+        {
+            "type": "cup",
+            "color": "Red"
+        },
+        {
+            "type": "cup",
+            "color": "Red"
+        },
+        {
+            "type": "cup",
+            "color": "Red"
+        },
+        {
+            "type": "cup",
+            "color": "Red"
+        }
+    ],
+    "fork": [
+        {
+            "color": "Red"
+        },
+        {
+            "type": "fork",
+            "color": "Red"
+        },
+        {
+            "type": "fork",
+            "color": "Red"
+        },
+        {
+            "type": "fork",
+            "color": "Red"
+        },
+        {
+            "type": "fork",
+            "color": "Red"
+        }
+    ],
+    "knife": [
+        {
+            "color": "Red"
+        },
+        {
+            "type": "knife",
+            "color": "Red"
+        },
+        {
+            "type": "knife",
+            "color": "Red"
+        },
+        {
+            "type": "knife",
+            "color": "Red"
+        },
+        {
+            "type": "knife",
+            "color": "Red"
+        }
+    ],
+    "spoon": [
+        {
+            "color": "Grey",
+            "brand": "Amtrak"
+        },
+        {
+            "type": "spoon",
+            "color": "Grey",
+            "brand": "Amtrak"
+        },
+        {
+            "type": "spoon",
+            "color": "Grey",
+            "brand": "Amtrak"
+        },
+        {
+            "type": "spoon",
+            "color": "Grey",
+            "brand": "Amtrak"
+        },
+        {
+            "type": "spoon",
+            "color": "Grey",
+            "brand": "Amtrak"
+        }
+    ],
+    "bowl": [
+        {
+            "color": "Red"
+        },
+        {
+            "type": "bowl",
+            "color": "Red"
+        },
+        {
+            "type": "bowl",
+            "color": "Red"
+        },
+        {
+            "type": "bowl",
+            "color": "Red"
+        },
+        {
+            "type": "bowl",
+            "color": "Red"
+        }
+    ],
+    "banana": [
+        {
+            "color": "Yellow"
+        },
+        {
+            "type": "banana",
+            "color": "Yellow"
+        },
+        {
+            "type": "banana",
+            "color": "Yellow"
+        },
+        {
+            "type": "banana",
+            "color": "Yellow"
+        },
+        {
+            "type": "banana",
+            "color": "Yellow"
+        }
+    ],
+    "apple": [
+        {
+            "color": "Red"
+        },
+        {
+            "type": "apple",
+            "color": "Red"
+        },
+        {
+            "type": "apple",
+            "color": "Red"
+        },
+        {
+            "type": "apple",
+            "color": "Red"
+        },
+        {
+            "type": "apple",
+            "color": "Red"
+        }
+    ],
+    "sandwich": [
+        {
+            "toppings": [
+                "Cheese",
+                "Lettuce",
+                "Tomato",
+                "Ham"
+            ],
+            "size": "Large"
+        },
+        {
+            "type": "sandwich",
+            "toppings": [
+                "Cheese",
+                "Lettuce",
+                "Tomato",
+                "Ham"
+            ],
+            "size": "Large"
+        },
+        {
+            "type": "sandwich",
+            "toppings": [
+                "Cheese",
+                "Lettuce",
+                "Tomato",
+                "Ham"
+            ],
+            "size": "Large"
+        },
+        {
+            "type": "sandwich",
+            "toppings": [
+                "Cheese",
+                "Lettuce",
+                "Tomato",
+                "Ham"
+            ],
+            "size": "Large"
+        },
+        {
+            "type": "sandwich",
+            "toppings": [
+                "Cheese",
+                "Lettuce",
+                "Tomato",
+                "Ham"
+            ],
+            "size": "Large"
+        }
+    ],
+    "orange": [
+        {
+            "color": "Orange"
+        },
+        {
+            "type": "orange",
+            "color": "Orange"
+        },
+        {
+            "type": "orange",
+            "color": "Orange"
+        },
+        {
+            "type": "orange",
+            "color": "Orange"
+        },
+        {
+            "type": "orange",
+            "color": "Orange"
+        }
+    ],
+    "broccoli": [
+        {
+            "color": "Green"
+        },
+        {
+            "type": "broccoli",
+            "color": "Green"
+        },
+        {
+            "type": "broccoli",
+            "color": "Green"
+        },
+        {
+            "type": "broccoli",
+            "color": "Green"
+        },
+        {
+            "type": "broccoli",
+            "color": "Green"
+        }
+    ],
+    "carrot": [
+        {
+            "color": "Orange"
+        },
+        {
+            "type": "carrot",
+            "color": "Orange"
+        },
+        {
+            "type": "carrot",
+            "color": "Orange"
+        },
+        {
+            "type": "carrot",
+            "color": "Orange"
+        },
+        {
+            "type": "carrot",
+            "color": "Orange"
+        }
+    ],
+    "hot dog": [
+        {
+            "toppings": [
+                "Ketchup",
+                "Mustard",
+                "Relish"
+            ],
+            "size": "Large"
+        },
+        {
+            "type": "hot dog",
+            "toppings": [
+                "Ketchup",
+                "Mustard",
+                "Relish"
+            ],
+            "size": "Large"
+        },
+        {
+            "type": "hot dog",
+            "toppings": [
+                "Ketchup",
+                "Mustard",
+                "Relish"
+            ],
+            "size": "Large"
+        },
+        {
+            "type": "hot dog",
+            "toppings": [
+                "Ketchup",
+                "Mustard",
+                "Relish"
+            ],
+            "size": "Large"
+        },
+        {
+            "type": "hot dog",
+            "toppings": [
+                "Ketchup",
+                "Mustard",
+                "Relish"
+            ],
+            "size": "Large"
+        }
+    ],
+    "pizza": [
+        {
+            "toppings": [
+                "Cheese",
+                "Pepperoni",
+                "Mushrooms"
+            ],
+            "size": "Large",
+            "crust": "Thin"
+        },
+        {
+            "type": "pizza",
+            "toppings": [
+                "Cheese",
+                "Pepperoni",
+                "Mushrooms"
+            ],
+            "size": "Large",
+            "crust": "Thin"
+        },
+        {
+            "type": "pizza",
+            "toppings": [
+                "Cheese",
+                "Pepperoni",
+                "Mushrooms"
+            ],
+            "size": "Large",
+            "crust": "Thin"
+        },
+        {
+            "type": "pizza",
+            "toppings": [
+                "Cheese",
+                "Pepperoni",
+                "Mushrooms"
+            ],
+            "size": "Large",
+            "crust": "Thin"
+        },
+        {
+            "type": "pizza",
+            "toppings": [
+                "Cheese",
+                "Pepperoni",
+                "Mushrooms"
+            ],
+            "size": "Large",
+            "crust": "Thin"
+        }
+    ],
+    "donut": [
+        {
+            "toppings": [
+                "Chocolate",
+                "Glazed",
+                "Sprinkles"
+            ],
+            "size": "Large"
+        },
+        {
+            "type": "donut",
+            "toppings": [
+                "Chocolate",
+                "Glazed",
+                "Sprinkles"
+            ],
+            "size": "Large"
+        },
+        {
+            "type": "donut",
+            "toppings": [
+                "Chocolate",
+                "Glazed",
+                "Sprinkles"
+            ],
+            "size": "Large"
+        },
+        {
+            "type": "donut",
+            "toppings": [
+                "Chocolate",
+                "Glazed",
+                "Sprinkles"
+            ],
+            "size": "Large"
+        },
+        {
+            "type": "donut",
+            "toppings": [
+                "Chocolate",
+                "Glazed",
+                "Sprinkles"
+            ],
+            "size": "Large"
+        }
+    ],
+    "cake": [
+        {
+            "toppings": [
+                "Chocolate",
+                "Vanilla",
+                "Strawberry"
+            ],
+            "size": "Large"
+        },
+        {
+            "type": "cake",
+            "toppings": [
+                "Chocolate",
+                "Vanilla",
+                "Strawberry"
+            ],
+            "size": "Large"
+        },
+        {
+            "type": "cake",
+            "toppings": [
+                "Chocolate",
+                "Vanilla",
+                "Strawberry"
+            ],
+            "size": "Large"
+        },
+        {
+            "type": "cake",
+            "toppings": [
+                "Chocolate",
+                "Vanilla",
+                "Strawberry"
+            ],
+            "size": "Large"
+        },
+        {
+            "type": "cake",
+            "toppings": [
+                "Chocolate",
+                "Vanilla",
+                "Strawberry"
+            ],
+            "size": "Large"
+        }
+    ],
+    "chair": [
+        {
+            "color": "Red",
+            "material": "Wood",
+            "style": "Modern",
+            "brand": "IKEA"
+        },
+        {
+            "type": "chair",
+            "color": "Red",
+            "material": "Wood",
+            "style": "Modern",
+            "brand": "IKEA"
+        },
+        {
+            "type": "chair",
+            "color": "Red",
+            "material": "Wood",
+            "style": "Modern",
+            "brand": "IKEA"
+        },
+        {
+            "type": "chair",
+            "color": "Red",
+            "material": "Wood",
+            "style": "Modern",
+            "brand": "IKEA"
+        },
+        {
+            "type": "chair",
+            "color": "Red",
+            "material": "Wood",
+            "style": "Modern",
+            "brand": "IKEA"
+        }
+    ],
+    "couch": [
+        {
+            "color": "Red",
+            "material": "Leather",
+            "style": "Sectional",
+            "brand": "West Elm"
+        },
+        {
+            "type": "couch",
+            "color": "Red",
+            "material": "Leather",
+            "style": "Sectional",
+            "brand": "West Elm"
+        },
+        {
+            "type": "couch",
+            "color": "Red",
+            "material": "Leather",
+            "style": "Sectional",
+            "brand": "West Elm"
+        },
+        {
+            "type": "couch",
+            "color": "Red",
+            "material": "Leather",
+            "style": "Sectional",
+            "brand": "West Elm"
+        },
+        {
+            "type": "couch",
+            "color": "Red",
+            "material": "Leather",
+            "style": "Sectional",
+            "brand": "West Elm"
+        }
+    ],
+    "potted plant": [
+        {
+            "color": "Red",
+            "species": "Red Aglaonema",
+            "potMaterial": "Ceramic",
+            "brand": "Costa Farms"
+        },
+        {
+            "type": "potted plant",
+            "color": "Red",
+            "species": "Red Aglaonema",
+            "potMaterial": "Ceramic",
+            "brand": "Costa Farms"
+        },
+        {
+            "type": "potted plant",
+            "color": "Red",
+            "species": "Red Aglaonema",
+            "potMaterial": "Ceramic",
+            "brand": "Costa Farms"
+        },
+        {
+            "type": "potted plant",
+            "color": "Red",
+            "species": "Red Aglaonema",
+            "potMaterial": "Ceramic",
+            "brand": "Costa Farms"
+        },
+        {
+            "type": "potted plant",
+            "color": "Red",
+            "species": "Red Aglaonema",
+            "potMaterial": "Ceramic",
+            "brand": "Costa Farms"
+        }
+    ],
+    "bed": [
+        {
+            "color": "Red",
+            "size": "Queen",
+            "material": "Wood",
+            "brand": "Zinus"
+        },
+        {
+            "type": "bed",
+            "color": "Red",
+            "size": "Queen",
+            "material": "Wood",
+            "brand": "Zinus"
+        },
+        {
+            "type": "bed",
+            "color": "Red",
+            "size": "Queen",
+            "material": "Wood",
+            "brand": "Zinus"
+        },
+        {
+            "type": "bed",
+            "color": "Red",
+            "size": "Queen",
+            "material": "Wood",
+            "brand": "Zinus"
+        },
+        {
+            "type": "bed",
+            "color": "Red",
+            "size": "Queen",
+            "material": "Wood",
+            "brand": "Zinus"
+        }
+    ],
+    "mirror": [
+        {
+            "color": "Red",
+            "shape": "Oval",
+            "frameMaterial": "Metal",
+            "brand": "Umbra"
+        },
+        {
+            "type": "mirror",
+            "color": "Red",
+            "shape": "Oval",
+            "frameMaterial": "Metal",
+            "brand": "Umbra"
+        },
+        {
+            "type": "mirror",
+            "color": "Red",
+            "shape": "Oval",
+            "frameMaterial": "Metal",
+            "brand": "Umbra"
+        },
+        {
+            "type": "mirror",
+            "color": "Red",
+            "shape": "Oval",
+            "frameMaterial": "Metal",
+            "brand": "Umbra"
+        },
+        {
+            "type": "mirror",
+            "color": "Red",
+            "shape": "Oval",
+            "frameMaterial": "Metal",
+            "brand": "Umbra"
+        }
+    ],
+    "dining table": [
+        {
+            "color": "Red",
+            "material": "Glass",
+            "shape": "Rectangle",
+            "brand": "CB2"
+        },
+        {
+            "type": "dining table",
+            "color": "Red",
+            "material": "Glass",
+            "shape": "Rectangle",
+            "brand": "CB2"
+        },
+        {
+            "type": "dining table",
+            "color": "Red",
+            "material": "Glass",
+            "shape": "Rectangle",
+            "brand": "CB2"
+        },
+        {
+            "type": "dining table",
+            "color": "Red",
+            "material": "Glass",
+            "shape": "Rectangle",
+            "brand": "CB2"
+        },
+        {
+            "type": "dining table",
+            "color": "Red",
+            "material": "Glass",
+            "shape": "Rectangle",
+            "brand": "CB2"
+        }
+    ],
+    "window": [
+        {
+            "color": "Red",
+            "type-1": "Sliding",
+            "frameMaterial": "Vinyl",
+            "brand": "Pella"
+        },
+        {
+            "type": "window",
+            "color": "Red",
+            "type-1": "Sliding",
+            "frameMaterial": "Vinyl",
+            "brand": "Pella"
+        },
+        {
+            "type": "window",
+            "color": "Red",
+            "type-1": "Sliding",
+            "frameMaterial": "Vinyl",
+            "brand": "Pella"
+        },
+        {
+            "type": "window",
+            "color": "Red",
+            "type-1": "Sliding",
+            "frameMaterial": "Vinyl",
+            "brand": "Pella"
+        },
+        {
+            "type": "window",
+            "color": "Red",
+            "type-1": "Sliding",
+            "frameMaterial": "Vinyl",
+            "brand": "Pella"
+        }
+    ],
+    "desk": [
+        {
+            "color": "Red",
+            "material": "Metal",
+            "style": "Adjustable",
+            "brand": "Fully"
+        },
+        {
+            "type": "desk",
+            "color": "Red",
+            "material": "Metal",
+            "style": "Adjustable",
+            "brand": "Fully"
+        },
+        {
+            "type": "desk",
+            "color": "Red",
+            "material": "Metal",
+            "style": "Adjustable",
+            "brand": "Fully"
+        },
+        {
+            "type": "desk",
+            "color": "Red",
+            "material": "Metal",
+            "style": "Adjustable",
+            "brand": "Fully"
+        },
+        {
+            "type": "desk",
+            "color": "Red",
+            "material": "Metal",
+            "style": "Adjustable",
+            "brand": "Fully"
+        }
+    ],
+    "toilet": [
+        {
+            "color": "White",
+            "brand": "Porsgrunn",
+            "material": "Ceramic",
+            "flushType": "Dual"
+        },
+        {
+            "type": "toilet",
+            "color": "White",
+            "brand": "Porsgrunn",
+            "material": "Ceramic",
+            "flushType": "Dual"
+        },
+        {
+            "type": "toilet",
+            "color": "White",
+            "brand": "Porsgrunn",
+            "material": "Ceramic",
+            "flushType": "Dual"
+        },
+        {
+            "type": "toilet",
+            "color": "White",
+            "brand": "Porsgrunn",
+            "material": "Ceramic",
+            "flushType": "Dual"
+        },
+        {
+            "type": "toilet",
+            "color": "White",
+            "brand": "Porsgrunn",
+            "material": "Ceramic",
+            "flushType": "Dual"
+        }
+    ],
+    "door": [
+        {
+            "color": "Red",
+            "material": "Wood",
+            "type-1": "Panel",
+            "brand": "Masonite"
+        },
+        {
+            "type": "door",
+            "color": "Red",
+            "material": "Wood",
+            "type-1": "Panel",
+            "brand": "Masonite"
+        },
+        {
+            "type": "door",
+            "color": "Red",
+            "material": "Wood",
+            "type-1": "Panel",
+            "brand": "Masonite"
+        },
+        {
+            "type": "door",
+            "color": "Red",
+            "material": "Wood",
+            "type-1": "Panel",
+            "brand": "Masonite"
+        },
+        {
+            "type": "door",
+            "color": "Red",
+            "material": "Wood",
+            "type-1": "Panel",
+            "brand": "Masonite"
+        }
+    ],
+    "tv": [
+        {
+            "color": "Red",
+            "brand": "Samsung",
+            "size": "55 inch",
+            "screentype": "LED"
+        },
+        {
+            "type": "tv",
+            "color": "Red",
+            "brand": "Samsung",
+            "size": "55 inch",
+            "screentype": "LED"
+        },
+        {
+            "type": "tv",
+            "color": "Red",
+            "brand": "Samsung",
+            "size": "55 inch",
+            "screentype": "LED"
+        },
+        {
+            "type": "tv",
+            "color": "Red",
+            "brand": "Samsung",
+            "size": "55 inch",
+            "screentype": "LED"
+        },
+        {
+            "type": "tv",
+            "color": "Red",
+            "brand": "Samsung",
+            "size": "55 inch",
+            "screentype": "LED"
+        }
+    ],
+    "laptop": [
+        {
+            "color": "Red",
+            "brand": "Dell",
+            "model": "Inspiron",
+            "screenSize": "15 inch"
+        },
+        {
+            "type": "laptop",
+            "color": "Red",
+            "brand": "Dell",
+            "model": "Inspiron",
+            "screenSize": "15 inch"
+        },
+        {
+            "type": "laptop",
+            "color": "Red",
+            "brand": "Dell",
+            "model": "Inspiron",
+            "screenSize": "15 inch"
+        },
+        {
+            "type": "laptop",
+            "color": "Red",
+            "brand": "Dell",
+            "model": "Inspiron",
+            "screenSize": "15 inch"
+        },
+        {
+            "type": "laptop",
+            "color": "Red",
+            "brand": "Dell",
+            "model": "Inspiron",
+            "screenSize": "15 inch"
+        }
+    ],
+    "mouse": [
+        {
+            "color": "Red",
+            "brand": "Logitech",
+            "type-1": "Wireless",
+            "model": "M330"
+        },
+        {
+            "type": "mouse",
+            "color": "Red",
+            "brand": "Logitech",
+            "type-1": "Wireless",
+            "model": "M330"
+        },
+        {
+            "type": "mouse",
+            "color": "Red",
+            "brand": "Logitech",
+            "type-1": "Wireless",
+            "model": "M330"
+        },
+        {
+            "type": "mouse",
+            "color": "Red",
+            "brand": "Logitech",
+            "type-1": "Wireless",
+            "model": "M330"
+        },
+        {
+            "type": "mouse",
+            "color": "Red",
+            "brand": "Logitech",
+            "type-1": "Wireless",
+            "model": "M330"
+        }
+    ],
+    "remote": [
+        {
+            "color": "Red",
+            "brand": "Sony",
+            "type-1": "Universal",
+            "compatibleDevices": "TV, Blu-Ray"
+        },
+        {
+            "type": "remote",
+            "color": "Red",
+            "brand": "Sony",
+            "type-1": "Universal",
+            "compatibleDevices": "TV, Blu-Ray"
+        },
+        {
+            "type": "remote",
+            "color": "Red",
+            "brand": "Sony",
+            "type-1": "Universal",
+            "compatibleDevices": "TV, Blu-Ray"
+        },
+        {
+            "type": "remote",
+            "color": "Red",
+            "brand": "Sony",
+            "type-1": "Universal",
+            "compatibleDevices": "TV, Blu-Ray"
+        },
+        {
+            "type": "remote",
+            "color": "Red",
+            "brand": "Sony",
+            "type-1": "Universal",
+            "compatibleDevices": "TV, Blu-Ray"
+        }
+    ],
+    "keyboard": [
+        {
+            "color": "Red",
+            "brand": "Corsair",
+            "surface": "Mechanical",
+            "model": "K70"
+        },
+        {
+            "type": "keyboard",
+            "color": "Red",
+            "brand": "Corsair",
+            "surface": "Mechanical",
+            "model": "K70"
+        },
+        {
+            "type": "keyboard",
+            "color": "Red",
+            "brand": "Corsair",
+            "surface": "Mechanical",
+            "model": "K70"
+        },
+        {
+            "type": "keyboard",
+            "color": "Red",
+            "brand": "Corsair",
+            "surface": "Mechanical",
+            "model": "K70"
+        },
+        {
+            "type": "keyboard",
+            "color": "Red",
+            "brand": "Corsair",
+            "surface": "Mechanical",
+            "model": "K70"
+        }
+    ],
+    "cell phone": [
+        {
+            "color": "Red",
+            "brand": "Apple",
+            "model": "iPhone 12",
+            "storage": "128GB"
+        },
+        {
+            "type": "cell phone",
+            "color": "Red",
+            "brand": "Apple",
+            "model": "iPhone 12",
+            "storage": "128GB"
+        },
+        {
+            "type": "cell phone",
+            "color": "Red",
+            "brand": "Apple",
+            "model": "iPhone 12",
+            "storage": "128GB"
+        },
+        {
+            "type": "cell phone",
+            "color": "Red",
+            "brand": "Apple",
+            "model": "iPhone 12",
+            "storage": "128GB"
+        },
+        {
+            "type": "cell phone",
+            "color": "Red",
+            "brand": "Apple",
+            "model": "iPhone 12",
+            "storage": "128GB"
+        }
+    ],
+    "microwave": [
+        {
+            "color": "Red",
+            "brand": "Panasonic",
+            "type-1": "Countertop",
+            "capacity": "2.2 cu ft"
+        },
+        {
+            "type": "microwave",
+            "color": "Red",
+            "brand": "Panasonic",
+            "type-1": "Countertop",
+            "capacity": "2.2 cu ft"
+        },
+        {
+            "type": "microwave",
+            "color": "Red",
+            "brand": "Panasonic",
+            "type-1": "Countertop",
+            "capacity": "2.2 cu ft"
+        },
+        {
+            "type": "microwave",
+            "color": "Red",
+            "brand": "Panasonic",
+            "type-1": "Countertop",
+            "capacity": "2.2 cu ft"
+        },
+        {
+            "type": "microwave",
+            "color": "Red",
+            "brand": "Panasonic",
+            "type-1": "Countertop",
+            "capacity": "2.2 cu ft"
+        }
+    ],
+    "oven": [
+        {
+            "color": "Red",
+            "brand": "KitchenAid",
+            "type-1": "Convection",
+            "capacity": "5.8 cu ft"
+        },
+        {
+            "type": "oven",
+            "color": "Red",
+            "brand": "KitchenAid",
+            "type-1": "Convection",
+            "capacity": "5.8 cu ft"
+        },
+        {
+            "type": "oven",
+            "color": "Red",
+            "brand": "KitchenAid",
+            "type-1": "Convection",
+            "capacity": "5.8 cu ft"
+        },
+        {
+            "type": "oven",
+            "color": "Red",
+            "brand": "KitchenAid",
+            "type-1": "Convection",
+            "capacity": "5.8 cu ft"
+        },
+        {
+            "type": "oven",
+            "color": "Red",
+            "brand": "KitchenAid",
+            "type-1": "Convection",
+            "capacity": "5.8 cu ft"
+        }
+    ],
+    "toaster": [
+        {
+            "color": "Red",
+            "brand": "Smeg",
+            "slots": "2",
+            "settings": "6 Browning Levels"
+        },
+        {
+            "type": "toaster",
+            "color": "Red",
+            "brand": "Smeg",
+            "slots": "2",
+            "settings": "6 Browning Levels"
+        },
+        {
+            "type": "toaster",
+            "color": "Red",
+            "brand": "Smeg",
+            "slots": "2",
+            "settings": "6 Browning Levels"
+        },
+        {
+            "type": "toaster",
+            "color": "Red",
+            "brand": "Smeg",
+            "slots": "2",
+            "settings": "6 Browning Levels"
+        },
+        {
+            "type": "toaster",
+            "color": "Red",
+            "brand": "Smeg",
+            "slots": "2",
+            "settings": "6 Browning Levels"
+        }
+    ],
+    "sink": [
+        {
+            "color": "Red",
+            "material": "Stainless Steel",
+            "type-1": "Undermount",
+            "brand": "Kohler"
+        },
+        {
+            "type": "sink",
+            "color": "Red",
+            "material": "Stainless Steel",
+            "type-1": "Undermount",
+            "brand": "Kohler"
+        },
+        {
+            "type": "sink",
+            "color": "Red",
+            "material": "Stainless Steel",
+            "type-1": "Undermount",
+            "brand": "Kohler"
+        },
+        {
+            "type": "sink",
+            "color": "Red",
+            "material": "Stainless Steel",
+            "type-1": "Undermount",
+            "brand": "Kohler"
+        },
+        {
+            "type": "sink",
+            "color": "Red",
+            "material": "Stainless Steel",
+            "type-1": "Undermount",
+            "brand": "Kohler"
+        }
+    ],
+    "refrigerator": [
+        {
+            "color": "Red",
+            "brand": "LG",
+            "type-1": "French Door",
+            "capacity": "22 cu ft"
+        },
+        {
+            "type": "refrigerator",
+            "color": "Red",
+            "brand": "LG",
+            "type-1": "French Door",
+            "capacity": "22 cu ft"
+        },
+        {
+            "type": "refrigerator",
+            "color": "Red",
+            "brand": "LG",
+            "type-1": "French Door",
+            "capacity": "22 cu ft"
+        },
+        {
+            "type": "refrigerator",
+            "color": "Red",
+            "brand": "LG",
+            "type-1": "French Door",
+            "capacity": "22 cu ft"
+        },
+        {
+            "type": "refrigerator",
+            "color": "Red",
+            "brand": "LG",
+            "type-1": "French Door",
+            "capacity": "22 cu ft"
+        }
+    ],
+    "blender": [
+        {
+            "color": "Red",
+            "brand": "Vitamix",
+            "model": "5200",
+            "capacity": "64 oz"
+        },
+        {
+            "type": "blender",
+            "color": "Red",
+            "brand": "Vitamix",
+            "model": "5200",
+            "capacity": "64 oz"
+        },
+        {
+            "type": "blender",
+            "color": "Red",
+            "brand": "Vitamix",
+            "model": "5200",
+            "capacity": "64 oz"
+        },
+        {
+            "type": "blender",
+            "color": "Red",
+            "brand": "Vitamix",
+            "model": "5200",
+            "capacity": "64 oz"
+        },
+        {
+            "type": "blender",
+            "color": "Red",
+            "brand": "Vitamix",
+            "model": "5200",
+            "capacity": "64 oz"
+        }
+    ],
+    "book": [
+        {
+            "color": "Red",
+            "title": "The Red Book",
+            "author": "C.G. Jung",
+            "genre": "Psychology"
+        },
+        {
+            "type": "book",
+            "color": "Red",
+            "title": "The Red Book",
+            "author": "C.G. Jung",
+            "genre": "Psychology"
+        },
+        {
+            "type": "book",
+            "color": "Red",
+            "title": "The Red Book",
+            "author": "C.G. Jung",
+            "genre": "Psychology"
+        },
+        {
+            "type": "book",
+            "color": "Red",
+            "title": "The Red Book",
+            "author": "C.G. Jung",
+            "genre": "Psychology"
+        },
+        {
+            "type": "book",
+            "color": "Red",
+            "title": "The Red Book",
+            "author": "C.G. Jung",
+            "genre": "Psychology"
+        }
+    ],
+    "clock": [
+        {
+            "color": "Red",
+            "type-1": "Wall Clock",
+            "brand": "Ikea",
+            "diameter": "10 inches"
+        },
+        {
+            "type": "clock",
+            "color": "Red",
+            "type-1": "Wall Clock",
+            "brand": "Ikea",
+            "diameter": "10 inches"
+        },
+        {
+            "type": "clock",
+            "color": "Red",
+            "type-1": "Wall Clock",
+            "brand": "Ikea",
+            "diameter": "10 inches"
+        },
+        {
+            "type": "clock",
+            "color": "Red",
+            "type-1": "Wall Clock",
+            "brand": "Ikea",
+            "diameter": "10 inches"
+        },
+        {
+            "type": "clock",
+            "color": "Red",
+            "type-1": "Wall Clock",
+            "brand": "Ikea",
+            "diameter": "10 inches"
+        }
+    ],
+    "vase": [
+        {
+            "color": "Red",
+            "material": "Glass",
+            "height": "12 inches",
+            "brand": "Crate & Barrel"
+        },
+        {
+            "type": "vase",
+            "color": "Red",
+            "material": "Glass",
+            "height": "12 inches",
+            "brand": "Crate & Barrel"
+        },
+        {
+            "type": "vase",
+            "color": "Red",
+            "material": "Glass",
+            "height": "12 inches",
+            "brand": "Crate & Barrel"
+        },
+        {
+            "type": "vase",
+            "color": "Red",
+            "material": "Glass",
+            "height": "12 inches",
+            "brand": "Crate & Barrel"
+        },
+        {
+            "type": "vase",
+            "color": "Red",
+            "material": "Glass",
+            "height": "12 inches",
+            "brand": "Crate & Barrel"
+        }
+    ],
+    "scissors": [
+        {
+            "color": "Red",
+            "brand": "Fiskars",
+            "type-1": "General Purpose",
+            "length": "8 inches"
+        },
+        {
+            "type": "scissors",
+            "color": "Red",
+            "brand": "Fiskars",
+            "type-1": "General Purpose",
+            "length": "8 inches"
+        },
+        {
+            "type": "scissors",
+            "color": "Red",
+            "brand": "Fiskars",
+            "type-1": "General Purpose",
+            "length": "8 inches"
+        },
+        {
+            "type": "scissors",
+            "color": "Red",
+            "brand": "Fiskars",
+            "type-1": "General Purpose",
+            "length": "8 inches"
+        },
+        {
+            "type": "scissors",
+            "color": "Red",
+            "brand": "Fiskars",
+            "type-1": "General Purpose",
+            "length": "8 inches"
+        }
+    ],
+    "teddy bear": [
+        {
+            "color": "Red",
+            "material": "Plush",
+            "brand": "Steiff",
+            "height": "16 inches"
+        },
+        {
+            "type": "teddy bear",
+            "color": "Red",
+            "material": "Plush",
+            "brand": "Steiff",
+            "height": "16 inches"
+        },
+        {
+            "type": "teddy bear",
+            "color": "Red",
+            "material": "Plush",
+            "brand": "Steiff",
+            "height": "16 inches"
+        },
+        {
+            "type": "teddy bear",
+            "color": "Red",
+            "material": "Plush",
+            "brand": "Steiff",
+            "height": "16 inches"
+        },
+        {
+            "type": "teddy bear",
+            "color": "Red",
+            "material": "Plush",
+            "brand": "Steiff",
+            "height": "16 inches"
+        }
+    ],
+    "hair drier": [
+        {
+            "color": "Red",
+            "brand": "Dyson",
+            "model": "Supersonic",
+            "technology": "Ionic"
+        },
+        {
+            "type": "hair drier",
+            "color": "Red",
+            "brand": "Dyson",
+            "model": "Supersonic",
+            "technology": "Ionic"
+        },
+        {
+            "type": "hair drier",
+            "color": "Red",
+            "brand": "Dyson",
+            "model": "Supersonic",
+            "technology": "Ionic"
+        },
+        {
+            "type": "hair drier",
+            "color": "Red",
+            "brand": "Dyson",
+            "model": "Supersonic",
+            "technology": "Ionic"
+        },
+        {
+            "type": "hair drier",
+            "color": "Red",
+            "brand": "Dyson",
+            "model": "Supersonic",
+            "technology": "Ionic"
+        }
+    ],
+    "toothbrush": [
+        {
+            "color": "Red",
+            "brand": "Oral-B",
+            "type-1": "Electric",
+            "model": "Pro 100"
+        },
+        {
+            "type": "toothbrush",
+            "color": "Red",
+            "brand": "Oral-B",
+            "type-1": "Electric",
+            "model": "Pro 100"
+        },
+        {
+            "type": "toothbrush",
+            "color": "Red",
+            "brand": "Oral-B",
+            "type-1": "Electric",
+            "model": "Pro 100"
+        },
+        {
+            "type": "toothbrush",
+            "color": "Red",
+            "brand": "Oral-B",
+            "type-1": "Electric",
+            "model": "Pro 100"
+        },
+        {
+            "type": "toothbrush",
+            "color": "Red",
+            "brand": "Oral-B",
+            "type-1": "Electric",
+            "model": "Pro 100"
+        }
+    ],
+    "hair brush": [
+        {
+            "color": "Red",
+            "brand": "Mason Pearson",
+            "type-1": "Boar Bristle",
+            "size": "Large"
+        },
+        {
+            "type": "hair brush",
+            "color": "Red",
+            "brand": "Mason Pearson",
+            "type-1": "Boar Bristle",
+            "size": "Large"
+        },
+        {
+            "type": "hair brush",
+            "color": "Red",
+            "brand": "Mason Pearson",
+            "type-1": "Boar Bristle",
+            "size": "Large"
+        },
+        {
+            "type": "hair brush",
+            "color": "Red",
+            "brand": "Mason Pearson",
+            "type-1": "Boar Bristle",
+            "size": "Large"
+        },
+        {
+            "type": "hair brush",
+            "color": "Red",
+            "brand": "Mason Pearson",
+            "type-1": "Boar Bristle",
+            "size": "Large"
+        }
+    ]
+}

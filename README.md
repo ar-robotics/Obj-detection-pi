@@ -29,3 +29,10 @@ The best one for now is the people_Detection_2 one.
 The datasets I trained on : https://www.kaggle.com/datasets/sbaghbidi/human-faces-object-detection?rvi=1
 
 ‘Open Images Dataset V7’. Accessed: Feb. 23, 2024. [Online]. Available: https://storage.googleapis.com/openimages/web/visualizer/index.html?type=detection&set=train&c=%2Fm%2F02rdsp
+
+## Docker & ROS 2
+Anytime a new dependency (requirements.txt or sudo apt-get install) is added, the Docker image needs to be rebuilt. This is done by running `./build_image`.
+
+To start Docker, run `./run_docker`.
+
+To run the ROS 2 mode with an actual camera run `./run_docker_production` (make sure the device argument in the file is correct). Once in the container run `./colcon` then start the node by running `./run_ai`.

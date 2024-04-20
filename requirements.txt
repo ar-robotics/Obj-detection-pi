@@ -1,5 +1,6 @@
 numpy
-opencv-python
-Pillow
+# opencv-python
+pillow
 tflite-runtime
-Flask
+flask
+mediapipe
