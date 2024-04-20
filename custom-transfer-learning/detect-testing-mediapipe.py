@@ -10,10 +10,7 @@ app = Flask(__name__)
 COUNTER, FPS = 0, 0
 START_TIME = time.time()
 # Initialize global variables for the object detection
-model_path = "/home/pi/Obj-detection-pi/custom-transfer-learning/tflite_models/people-detection.tflite"
-
-
-
+model_path = "/home/pi/Obj-detection-pi/custom-transfer-learning/tflite_models/bolt-detection-mp.tflite"
 
 
 row_size = 50  # pixels
@@ -90,18 +87,17 @@ def gen_frames():
     if not ret:
         # If frame is not encoded successfully, return an empty frame
         return b""
-    return buffer.tobytes()
+    # return buffer.tobytes()
 
-    # yield (
-    #     b"--frame\r\n"
-    #     b"Content-Type: image/jpeg\r\n\r\n" + detection_frame + b"\r\n"
-    # )
+    yield (
+        b"--frame\r\n" b"Content-Type: image/jpeg\r\n\r\n" + detection_frame + b"\r\n"
+    )
 
 
-# @app.route("/video_feed")
-# def video_feed():
-#     Change camera_id based on your configuration
-#     return Response(gen_frames(0), mimetype="multipart/x-mixed-replace; boundary=frame")
+@app.route("/video_feed")
+def video_feed():
+    # Change camera_id based on your configuration
+    return Response(gen_frames(), mimetype="multipart/x-mixed-replace; boundary=frame")
 
 
 @app.route("/snapshot")
