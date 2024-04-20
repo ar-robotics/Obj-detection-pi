@@ -14,13 +14,14 @@
 
 import cv2
 import numpy as np
-
+import json
+import enum
 
 MARGIN = 10  # pixels
 ROW_SIZE = 30  # pixels
 FONT_SIZE = 1
 FONT_THICKNESS = 1
-TEXT_COLOR = (0, 0, 0)  # black
+TEXT_COLOR = (255, 255, 255)  # black
 
 
 def visualize(image, detection_result) -> np.ndarray:
@@ -57,3 +58,8 @@ def visualize(image, detection_result) -> np.ndarray:
         )
 
     return image
+
+
+class Camera(enum.Enum):
+    DRIVE = "/dev/video0"
+    ARM = "/dev/video1"
