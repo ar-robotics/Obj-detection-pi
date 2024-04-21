@@ -4,7 +4,7 @@ import cv2
 import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
-from utils import visualize, Camera, Stream
+from utils import visualize, Camera
 
 app = Flask(__name__)
 COUNTER, FPS = 0, 0
