@@ -20,7 +20,8 @@ class ObjectDetection:
     def __init__(self, model_path):
         self.row_size = 50  # pixels
         self.left_margin = 24  # pixels
-        self.text_color = (255, 255, 255)  # black
+        self.text_color = (46, 26, 119)  #
+        self.db_text_color = (57, 25, 215)  # green
         self.font_size = 1
         self.font_thickness = 1
         self.fps_avg_frame_count = 10
@@ -121,25 +122,25 @@ class ObjectDetection:
             frame, category, text_location = visualize(
                 frame, self.detection_result_list[0]
             )
-            print("category ", category)
             self.dict_info = self.__retreive_info(category)
 
             self.detection_result_list.clear()
 
         if self.dict_info:
-            info_text = ", ".join([f"{k}: {v}" for k, v in self.dict_info.items()])
-            offset = text_location[1] - 25
-            cv2.putText(
-                frame,
-                info_text,
-                (text_location[0], offset),
-                cv2.FONT_HERSHEY_DUPLEX,
-                self.font_size,
-                self.text_color,
-                self.font_thickness,
-                cv2.LINE_AA,
-            )
-            offset -= 25
+            offset = text_location[1] - 35
+            for key, value in self.dict_info.items():
+                info_text = "{}: {}".format(key, value)
+                cv2.putText(
+                    frame,
+                    info_text,
+                    (text_location[0], offset),
+                    cv2.FONT_HERSHEY_DUPLEX,
+                    self.font_size,
+                    self.db_text_color,
+                    self.font_thickness,
+                    cv2.LINE_AA,
+                )
+                offset -= int(self.font_size * 20)
         return frame
 
     def generate_frames(self, detector):
@@ -177,7 +178,6 @@ class ObjectDetection:
             object_name = object_name.lower()
         query = {"class": object_name}
         items_info = self.db.find_one(query)
-        print("info in retreive info", items_info)
         all_info_dict = {}
 
         if items_info:
