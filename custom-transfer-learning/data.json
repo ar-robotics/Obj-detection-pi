@@ -1,0 +1,29 @@
+{
+    "bolt": [
+      {
+        "_id": {"$oid": "6627b7cd9655bc8435f3f074"},
+        "class": "bolt",
+        "colour": "black",
+        "length": "4 cm"
+      }
+    ],
+    "switch": [
+      {
+        "_id": {"$oid": "6627b7cd9655bc8435f3f075"},
+        "class": "switch",
+        "Brand": "Philips",
+        "Colour": "White",
+        "Voltage": "220V"
+      }
+    ],
+    "person": [
+      {
+        "_id": {"$oid": "6627b7cd9655bc8435f3f076"},
+        "class": "person",
+        "name": "Aditi Deshpande",
+        "age": 25,
+        "occupation": "developer"
+      }
+    ]
+  }
+  

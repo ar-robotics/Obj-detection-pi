@@ -31,7 +31,11 @@ def visualize(image, detection_result) -> np.ndarray:
       detection_result: The list of all "Detection" entities to be visualized.
     Returns:
       Image with bounding boxes.
+      category_name: The category name of the detected object.
+
     """
+    category_name = None
+    text_location = None
     for detection in detection_result.detections:
         # Draw bounding_box
         bbox = detection.bounding_box
@@ -43,9 +47,14 @@ def visualize(image, detection_result) -> np.ndarray:
         # Draw label and score
         category = detection.categories[0]
         category_name = category.category_name
-        probability = round(category.score, 2)
-        result_text = category_name + " (" + str(probability) + ")"
-        text_location = (MARGIN + bbox.origin_x, MARGIN + ROW_SIZE + bbox.origin_y)
+        probability = round(category.score, 2) * 100
+        if probability == 100:
+            probability = 99.99
+        result_text = category_name + " (" + str(probability) + "%" + ")"
+        text_location = (
+            MARGIN + bbox.origin_x,
+            MARGIN + ROW_SIZE + bbox.origin_y,
+        )  # noqa
         cv2.putText(
             image,
             result_text,
@@ -57,7 +66,7 @@ def visualize(image, detection_result) -> np.ndarray:
             cv2.LINE_AA,
         )
 
-    return image
+    return image, category_name, text_location
 
 
 class Camera(enum.Enum):

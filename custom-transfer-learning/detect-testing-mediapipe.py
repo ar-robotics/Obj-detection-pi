@@ -5,6 +5,7 @@ import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 from utils import visualize, Camera
+from jsondatabase import JsonDatabase
 
 app = Flask(__name__)
 COUNTER, FPS = 0, 0
@@ -28,6 +29,8 @@ class ObjectDetection:
         self.detection_result_list = []
         self.current_camera = Camera.DRIVE
         self.cap = cv2.VideoCapture(self.current_camera.value)
+        self.db = JsonDatabase("data.json")
+        self.dict_info = None
 
     def save_result(
         self,
@@ -114,8 +117,29 @@ class ObjectDetection:
 
         # Visualize results in frame
         if self.detection_result_list:
-            frame = visualize(frame, self.detection_result_list[0])
+
+            frame, category, text_location = visualize(
+                frame, self.detection_result_list[0]
+            )
+            print("category ", category)
+            self.dict_info = self.__retreive_info(category)
+
             self.detection_result_list.clear()
+
+        if self.dict_info:
+            info_text = ", ".join([f"{k}: {v}" for k, v in self.dict_info.items()])
+            offset = text_location[1] - 25
+            cv2.putText(
+                frame,
+                info_text,
+                (text_location[0], offset),
+                cv2.FONT_HERSHEY_DUPLEX,
+                self.font_size,
+                self.text_color,
+                self.font_thickness,
+                cv2.LINE_AA,
+            )
+            offset -= 25
         return frame
 
     def generate_frames(self, detector):
@@ -137,6 +161,32 @@ class ObjectDetection:
             return b""
         detection_frame = buffer.tobytes()
         return detection_frame
+
+    def __retreive_info(self, object_name) -> dict:
+        """
+        Retrieve all information for the object from the database
+
+        Args:
+            database: Database object
+            object_name: Name of the object
+
+        Returns:
+            all_info_dict: Dictionary containing all information for the object
+        """
+        if object_name is not None:
+            object_name = object_name.lower()
+        query = {"class": object_name}
+        items_info = self.db.find_one(query)
+        print("info in retreive info", items_info)
+        all_info_dict = {}
+
+        if items_info:
+            for key, value in items_info.items():
+                # Save each key-value pair into the dictionary
+                if key != "_id" and key != "type":
+                    all_info_dict[key] = value
+
+        return all_info_dict
 
     def gen_videostream(self, detector):
         """Generate the video stream for the object detection
@@ -168,22 +218,23 @@ class ObjectDetection:
 
 
 Det_object = ObjectDetection(model_path)
-detector = Det_object.inference()
-
-# @app.route("/video_feed")
-# def video_feed():
-#     return Response(
-#         Det_object.gen_videostream(detector),
-#         mimetype="multipart/x-mixed-replace; boundary=frame",
-#     )
+detector = Det_object.inference(3, 0.8)
 
 
-@app.route("/snapshot")
-def snapshot():
-    frame = Det_object.generate_frames(detector)
-    if frame is None:
-        return "Failed to capture frame", 400
-    return Response(frame, mimetype="image/jpeg")
+@app.route("/video_feed")
+def video_feed():
+    return Response(
+        Det_object.gen_videostream(detector),
+        mimetype="multipart/x-mixed-replace; boundary=frame",
+    )
+
+
+# @app.route("/snapshot")
+# def snapshot():
+#     frame = Det_object.generate_frames(detector)
+#     if frame is None
+#         return "Failed to capture frame", 400
+#     return Response(frame, mimetype="image/jpeg")
 
 
 if __name__ == "__main__":
