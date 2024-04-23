@@ -14,7 +14,6 @@
 
 import cv2
 import numpy as np
-import json
 import enum
 
 MARGIN = 10  # pixels
@@ -38,14 +37,14 @@ def visualize(image, detection_result) -> np.ndarray:
         start_point = bbox.origin_x, bbox.origin_y
         end_point = bbox.origin_x + bbox.width, bbox.origin_y + bbox.height
         # Use the orange color for high visibility.
-        cv2.rectangle(image, start_point, end_point, (0, 165, 255), 3)
+        cv2.rectangle(image, start_point, end_point, (119, 26, 46), 3)
 
         # Draw label and score
         category = detection.categories[0]
         category_name = category.category_name
         probability = round(category.score, 2)
         result_text = category_name + " (" + str(probability) + ")"
-        text_location = (MARGIN + bbox.origin_x, MARGIN + ROW_SIZE + bbox.origin_y)
+        text_location = (MARGIN + bbox.origin_x, MARGIN + ROW_SIZE + bbox.origin_y) # noqa
         cv2.putText(
             image,
             result_text,

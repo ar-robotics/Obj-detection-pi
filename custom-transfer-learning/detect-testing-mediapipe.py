@@ -4,19 +4,20 @@ import cv2
 import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
-from utils import visualize, Camera, Stream
+from utils import visualize, Camera
 
 app = Flask(__name__)
 COUNTER, FPS = 0, 0
 START_TIME = time.time()
 # Initialize global variables for the object detection
-model_path = "/home/pi/Obj-detection-pi/custom-transfer-learning/tflite_models/bolt-detection-mp.tflite"
+model_path = "tflite_models/bolt-detection-mp.tflite" # noqa
 
 
 class ObjectDetection:
     """ObjectDetection class for the object detection application"""
 
     def __init__(self, model_path):
+        
         self.row_size = 50  # pixels
         self.left_margin = 24  # pixels
         self.text_color = (255, 255, 255)  # black
@@ -158,12 +159,11 @@ class ObjectDetection:
                 ret, buffer = cv2.imencode(".jpg", detection_frame)
                 detection_frame = buffer.tobytes()
                 if not ret:
-                    # If frame is not encoded successfully, return an empty frame
                     return b""
 
                 yield (
                     b"--frame\r\n"
-                    b"Content-Type: image/jpeg\r\n\r\n" + detection_frame + b"\r\n"
+                    b"Content-Type: image/jpeg\r\n\r\n" + detection_frame + b"\r\n" # noqa
                 )
 
 
